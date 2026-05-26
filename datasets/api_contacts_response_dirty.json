@@ -1,0 +1,35 @@
+{
+  "page": 1,
+  "page_size": 4,
+  "total_records": 4,
+  "contacts": [
+    {
+      "id": "C-001",
+      "name": "Maria Customer",
+      "company": "Northbridge Supplies",
+      "email": "maria.customer@example.com",
+      "status": "active"
+    },
+    {
+      "id": "C-001",
+      "name": "Maria Customer Duplicate",
+      "company": "Northbridge Supplies",
+      "email": "maria.duplicate@example.com",
+      "status": "active"
+    },
+    {
+      "id": "C-004",
+      "name": "",
+      "company": "Unknown Ltd",
+      "email": "missing-name@example.com",
+      "status": "active"
+    },
+    {
+      "id": "C-005",
+      "name": "Invalid Email Contact",
+      "company": "Example Ltd",
+      "email": "not-an-email",
+      "status": "active"
+    }
+  ]
+}

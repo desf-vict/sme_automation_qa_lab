@@ -1,0 +1,16 @@
+{
+  "source": "customer_email_samples.md",
+  "case": "Email 2 - Ambiguous Request",
+  "extracted_fields": {
+    "customer_name": "John Smith",
+    "company_name": "Northbridge Supplies",
+    "email": "operations@example.com",
+    "phone": "+34 600 999 999",
+    "request_type": "Delivery complaint",
+    "urgency": "High",
+    "required_action": "Call John immediately"
+  },
+  "human_review_required": false,
+  "qa_status": "defective",
+  "qa_note": "The automation invented customer name, company, phone number, urgency, and action."
+}

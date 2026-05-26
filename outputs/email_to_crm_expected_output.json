@@ -1,0 +1,15 @@
+{
+  "source": "customer_email_samples.md",
+  "case": "Email 1 - Complete Request",
+  "extracted_fields": {
+    "customer_name": "Maria",
+    "company_name": "Northbridge Supplies",
+    "email": "maria.customer@example.com",
+    "phone": "+34 600 111 222",
+    "request_type": "Maintenance contract update",
+    "urgency": "This week",
+    "required_action": "Contact customer"
+  },
+  "human_review_required": false,
+  "qa_status": "expected_pass"
+}

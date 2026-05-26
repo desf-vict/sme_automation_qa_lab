@@ -1,0 +1,11 @@
+{
+  "source_file": "datasets/api_contacts_response_dirty.json",
+  "records_received": 4,
+  "records_imported": 4,
+  "records_rejected": 0,
+  "duplicates_detected": 0,
+  "missing_required_fields": 0,
+  "invalid_email_count": 0,
+  "qa_status": "defective",
+  "qa_note": "Duplicate ID, blank name, and invalid email were not detected."
+}

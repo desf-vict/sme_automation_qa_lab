@@ -1,0 +1,8 @@
+item_id,item_name,quantity,unit_price,category
+INV-001,Monitor,15,200.00,Hardware
+INV-002,Keyboard,,50.00,Hardware
+INV-003,Mouse,abc,20.00,Hardware
+INV-004,USB Cable,35,,Accessories
+INV-004,USB Cable,35,8.50,Accessories
+,Webcam,10,75.00,Hardware
+INV-006,Desk Lamp,-4,25.00,Office

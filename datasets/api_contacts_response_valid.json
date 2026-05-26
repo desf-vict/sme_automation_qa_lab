@@ -1,0 +1,28 @@
+{
+  "page": 1,
+  "page_size": 3,
+  "total_records": 3,
+  "contacts": [
+    {
+      "id": "C-001",
+      "name": "Maria Customer",
+      "company": "Northbridge Supplies",
+      "email": "maria.customer@example.com",
+      "status": "active"
+    },
+    {
+      "id": "C-002",
+      "name": "James Operations",
+      "company": "Metro Logistics",
+      "email": "james.operations@example.com",
+      "status": "active"
+    },
+    {
+      "id": "C-003",
+      "name": "Laura Finance",
+      "company": "Eastgate Services",
+      "email": "laura.finance@example.com",
+      "status": "inactive"
+    }
+  ]
+}

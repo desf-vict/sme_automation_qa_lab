@@ -1,0 +1,16 @@
+SUPPLIER: Northbridge Office Supplies
+INVOICE NUMBER:
+INVOICE DATE: 20/05/26
+DUE DATE:
+CURRENCY: EUR
+
+ITEMS:
+- Monitor x 2 @ 200.00 = 400.00
+- Keyboard x three @ 50.00 = 150.00
+- Mouse x 5 @ 20.00 = 100.00
+
+SUBTOTAL: 650.00
+TAX: 130.00
+TOTAL: 786.50
+
+PAYMENT TERMS:

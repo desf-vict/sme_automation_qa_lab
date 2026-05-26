@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SME Automation QA Lab Dashboard</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: #f7f7f7;
+            color: #222;
+        }
+
+        h1 {
+            color: #003366;
+        }
+
+        h2 {
+            color: #005599;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 18px;
+            margin-bottom: 18px;
+        }
+
+        .status-pass {
+            color: green;
+            font-weight: bold;
+        }
+
+        .status-warn {
+            color: darkorange;
+            font-weight: bold;
+        }
+
+        .status-fail {
+            color: darkred;
+            font-weight: bold;
+        }
+
+        .status-pending {
+            color: #555;
+            font-weight: bold;
+        }
+
+        a {
+            color: #005599;
+        }
+
+        code {
+            background: #eee;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 12px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            vertical-align: top;
+        }
+
+        th {
+            background: #f0f4f8;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>SME Automation QA Lab — Delivery QA Dashboard</h1>
+
+    <div class="card">
+        <h2>Repository Purpose</h2>
+        <p>
+            This dashboard summarises a practical QA repository for validating
+            SME business automations before customer delivery.
+        </p>
+        <p>
+            The focus is on customer-environment readiness, workflow validation,
+            integration checks, AI-assisted automation review, bug reporting,
+            and handover readiness.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>QA Coverage Summary</h2>
+        <ul>
+            <li>Customer environment readiness: <span class="status-pending">DOCUMENTED</span></li>
+            <li>Delivery acceptance checks: <span class="status-pending">DOCUMENTED</span></li>
+            <li>CSV validation: <span class="status-pass">SCRIPT AVAILABLE</span></li>
+            <li>JSON validation: <span class="status-pass">SCRIPT AVAILABLE</span></li>
+            <li>API import validation: <span class="status-pass">SCRIPT AVAILABLE</span></li>
+            <li>SQL review: <span class="status-warn">MANUAL QA REQUIRED</span></li>
+            <li>AI workflow review: <span class="status-warn">HUMAN REVIEW REQUIRED</span></li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Core Repository Links</h2>
+        <table>
+            <tr>
+                <th>Area</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>Main README</td>
+                <td><a href="../README.md">README.md</a></td>
+            </tr>
+            <tr>
+                <td>Test matrix</td>
+                <td><a href="../docs/05_test_matrix.md">docs/05_test_matrix.md</a></td>
+            </tr>
+            <tr>
+                <td>Severity model</td>
+                <td><a href="../docs/06_severity_levels.md">docs/06_severity_levels.md</a></td>
+            </tr>
+            <tr>
+                <td>Validation utilities</td>
+                <td><a href="../validation/README.md">validation/README.md</a></td>
+            </tr>
+            <tr>
+                <td>Customer handover template</td>
+                <td><a href="../handover/customer_handover_template.md">handover/customer_handover_template.md</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>Workflow Test Cases</h2>
+        <ul>
+            <li><a href="../test_cases/automation_workflows/01_csv_to_excel_report.md">CSV to Excel report automation</a></li>
+            <li><a href="../test_cases/automation_workflows/02_email_to_crm_update.md">Email to CRM update automation</a></li>
+            <li><a href="../test_cases/automation_workflows/03_invoice_extraction_validation.md">Invoice extraction validation</a></li>
+            <li><a href="../test_cases/automation_workflows/04_ai_generated_customer_reply_review.md">AI-generated customer reply review</a></li>
+            <li><a href="../test_cases/automation_workflows/05_sql_report_generation.md">SQL report generation</a></li>
+            <li><a href="../test_cases/automation_workflows/06_api_data_import_validation.md">API data import validation</a></li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Suggested Demo Commands</h2>
+        <p>Run these from the repository root:</p>
+        <p><code>python validation/json_validator.py</code></p>
+        <p><code>python validation/csv_inventory_validator.py</code></p>
+        <p><code>python validation/api_import_validator.py</code></p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+item_id,item_name,quantity,unit_price,category,total_value,qa_status
+INV-001,Monitor,15,200.00,Hardware,3000.00,accepted
+INV-002,Keyboard,8,50.00,Hardware,400.00,accepted
+INV-003,Mouse,20,20.00,Hardware,400.00,accepted
+INV-004,USB Cable,35,8.50,Accessories,297.50,accepted
+INV-005,Laptop Stand,12,35.00,Accessories,420.00,accepted
